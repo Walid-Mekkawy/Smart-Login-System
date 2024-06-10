@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container my-5 text-center ">
+        <div class="group m-auto w-75 p-5">
+            <h1 class="text-white">Smart Login System</h1>
+
+            <input id="signinEmail" class="form-control my-3" placeholder="Enter your email" type="text">
+            <input id="signinPassword" class="form-control my-3" placeholder="Enter your password" type="password">
+            <p id="incorrect"></p>
+
+            <button onclick="login()" class="btn btn-outline-info w-100 my-3">Login</button>
+            <p class="text-warning">Don’t have an account? <a class="text-danger" href="index.html">Sign Up</a></p>
+
+        </div>
+    </div>
+    
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
